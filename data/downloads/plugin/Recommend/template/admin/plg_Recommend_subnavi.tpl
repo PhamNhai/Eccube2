@@ -1,0 +1,1 @@
+<li<!--{if $tpl_subno == 'recommend-banner'}--> class="on"<!--{/if}--> id="navi-contents-recommend-banner"><a href="<!--{$smarty.const.ROOT_URLPATH}--><!--{$smarty.const.ADMIN_DIR}-->contents/plg_Recommend_recommend.php"><span>レコメンドバナー管理</span></a></li>

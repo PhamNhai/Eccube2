@@ -1,0 +1,6 @@
+2018/10/24 12:56:29 [/eccube2/html/index.php] [execute end 5bcfed6b56a17#1]
+SQL: SET SESSION storage_engine = InnoDB
+PlaceHolder: array (
+)
+execution time: 2.00 sec
+ from ::1

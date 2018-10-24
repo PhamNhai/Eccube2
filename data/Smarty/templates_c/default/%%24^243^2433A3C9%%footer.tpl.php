@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.26, created on 2018-10-23 22:13:57
+<?php /* Smarty version 2.6.26, created on 2018-10-24 15:35:33
          compiled from C:%5Cxampp%5Chtdocs%5Ceccube2%5Chtml/../data/Smarty/templates/default/footer.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('modifier', 'script_escape', 'C:\\xampp\\htdocs\\eccube2\\html/../data/Smarty/templates/default/footer.tpl', 28, false),array('modifier', 'date_format', 'C:\\xampp\\htdocs\\eccube2\\html/../data/Smarty/templates/default/footer.tpl', 28, false),array('modifier', 'default', 'C:\\xampp\\htdocs\\eccube2\\html/../data/Smarty/templates/default/footer.tpl', 29, false),array('modifier', 'h', 'C:\\xampp\\htdocs\\eccube2\\html/../data/Smarty/templates/default/footer.tpl', 29, false),)), $this); ?>

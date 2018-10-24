@@ -39,3 +39,35 @@
 2018/10/23 11:50:27 [/eccube2/html/index.php] Warning(E_WARNING): Use of undefined constant ROOT_URLPATH - assumed 'ROOT_URLPATH' (this will throw an Error in a future version of PHP) on [C:\xampp\htdocs\eccube2\data\cache\mtb_constants.php(370)] from ::1
 2018/10/23 11:50:27 [/eccube2/html/index.php] Warning(E_WARNING): Use of undefined constant ROOT_URLPATH - assumed 'ROOT_URLPATH' (this will throw an Error in a future version of PHP) on [C:\xampp\htdocs\eccube2\data\cache\mtb_constants.php(372)] from ::1
 2018/10/23 11:50:27 [/eccube2/html/index.php] Warning(E_WARNING): Use of undefined constant ROOT_URLPATH - assumed 'ROOT_URLPATH' (this will throw an Error in a future version of PHP) on [C:\xampp\htdocs\eccube2\data\cache\mtb_constants.php(404)] from ::1
+2018/10/24 12:56:29 [/eccube2/html/index.php] Fatal error(E_USER_ERROR): DB処理でエラーが発生しました。
+SQL: [SET SESSION storage_engine = InnoDB]
+PlaceHolder: [array (
+)]
+MDB2 Error: connect failed
+_doConnect: [Error message: No connection could be made because the target machine actively refused it.
+]
+[Native code: 2002]
+[Native message: No connection could be made because the target machine actively refused it.
+]
+ on [C:\xampp\htdocs\eccube2\data\class\SC_Query.php(1007)] from ::1
+customer_id = 
+C:\xampp\htdocs\eccube2\html\index.php(24): require_once
+C:\xampp\htdocs\eccube2\html\require.php(35): require_once
+C:\xampp\htdocs\eccube2\data\require_base.php(45): SC_SessionFactory_UseCookie->initSession
+C:\xampp\htdocs\eccube2\data\class\sessionfactory\SC_SessionFactory_UseCookie.php(55): session_start
+(): SC_Helper_Session->sfSessRead
+C:\xampp\htdocs\eccube2\data\class\helper\SC_Helper_Session.php(71): SC_Query::getSingletonInstance
+C:\xampp\htdocs\eccube2\data\class\SC_Query.php(104): SC_Query->__construct
+C:\xampp\htdocs\eccube2\data\class\SC_Query.php(88): SC_DB_DBFactory_MYSQL->initObjQuery
+C:\xampp\htdocs\eccube2\data\class\db\dbfactory\SC_DB_DBFactory_MYSQL.php(323): SC_Query->exec
+C:\xampp\htdocs\eccube2\data\class\SC_Query.php(231): SC_Query->query
+C:\xampp\htdocs\eccube2\data\class\SC_Query.php(814): SC_Query->execute
+C:\xampp\htdocs\eccube2\data\class\SC_Query.php(970): SC_Query->error
+C:\xampp\htdocs\eccube2\data\class\SC_Query.php(1007): trigger_error
+2018/10/24 12:56:34 [/eccube2/html/index.php] Fatal error(E_ERROR): Call to a member function doAction() on boolean on [C:\xampp\htdocs\eccube2\data\class\SC_View.php(137)] from ::1
+customer_id = 
+2018/10/24 13:37:04 [/eccube2/html/upgrade/index.php] Warning(E_WARNING): file_exists() expects parameter 1 to be a valid path, string given on [C:\xampp\htdocs\eccube2\data\module\Archive\Tar.php(1609)] from ::1
+2018/10/24 15:12:36 [/eccube2/html/upgrade/index.php] Warning(E_WARNING): file_exists() expects parameter 1 to be a valid path, string given on [C:\xampp\htdocs\eccube2\data\module\Archive\Tar.php(1609)] from ::1
+2018/10/24 15:17:51 [/eccube2/html/admin/ownersstore/index.php] Warning(E_WARNING): file_exists() expects parameter 1 to be a valid path, string given on [C:\xampp\htdocs\eccube2\data\module\Archive\Tar.php(1609)] from ::1
+2018/10/24 15:18:04 [/eccube2/html/admin/ownersstore/index.php] Warning(E_WARNING): file_exists() expects parameter 1 to be a valid path, string given on [C:\xampp\htdocs\eccube2\data\module\Archive\Tar.php(1609)] from ::1
+2018/10/24 15:36:12 [/eccube2/html/abouts/index.php] Warning(E_WARNING): Creating default object from empty value on [C:\xampp\htdocs\eccube2\data\class\pages\abouts\LC_Page_Abouts.php(70)] from ::1

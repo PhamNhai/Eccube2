@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.26, created on 2018-10-23 22:13:52
+<?php /* Smarty version 2.6.26, created on 2018-10-24 15:35:28
          compiled from site_frame.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('function', 'printXMLDeclaration', 'site_frame.tpl', 1, false),array('modifier', 'script_escape', 'site_frame.tpl', 24, false),array('modifier', 'h', 'site_frame.tpl', 24, false),array('modifier', 'strlen', 'site_frame.tpl', 43, false),array('modifier', 'count', 'site_frame.tpl', 64, false),)), $this); ?>
